@@ -22,7 +22,7 @@ import PackageDescription
 let firebaseVersion = "11.8.0"
 
 let package = Package(
-  name: "Firebase",
+  name: "firebase-ios-sdk",
   platforms: [.iOS(.v12), .macCatalyst(.v13), .macOS(.v10_15), .tvOS(.v13), .watchOS(.v7)],
   products: [
     .library(
